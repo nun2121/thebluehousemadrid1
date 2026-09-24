@@ -1,0 +1,46 @@
+==============================================================================
+GUÍA DE SUBIDA A INTERNET · THE BLUE HOUSE MADRID
+==============================================================================
+
+Esta carpeta contiene TODO lo necesario para que tu web funcione en internet.
+No necesitas instalar Node.js, ni Vite, ni PHP en el hosting. Es 100% estática.
+
+------------------------------------------------------------------------------
+OPCIÓN 1: SUBIR POR CPANEL / HOSTINGER / RAIOLA / PLESK (LA MÁS RÁPIDA)
+------------------------------------------------------------------------------
+1. Accede al panel de control de tu hosting (cPanel, Hostinger hPanel, Plesk, etc.).
+2. Abre el "Administrador de Archivos" (File Manager).
+3. Entra en la carpeta raíz pública de tu dominio:
+   - Suele llamarse: public_html  o  www  o  httpdocs
+4. Si tienes el archivo comprimido "WEB_THE_BLUE_HOUSE.zip", súbelo directamente 
+   ahí y dale a "Extraer" (Extract).
+   - O bien, sube directamente los archivos y carpetas que están aquí dentro.
+5. Los archivos deben quedar en la raíz de public_html:
+   - public_html/index.html
+   - public_html/assets/
+   - public_html/images/
+   - public_html/logo.jpg
+   - public_html/.htaccess
+6. ¡Listo! Abre tu dominio en el navegador (ej: https://tudominio.com) y tu web
+   estará funcionando.
+
+------------------------------------------------------------------------------
+OPCIÓN 2: SUBIR POR FTP (FILEZILLA / CYBERDUCK)
+------------------------------------------------------------------------------
+1. Conéctate con tus datos de FTP a tu servidor.
+2. En el panel remoto (lado derecho), abre la carpeta public_html (o www).
+3. En el panel local (lado izquierdo), selecciona todos los archivos que hay
+   DENTRO de esta carpeta "WEB_PARA_SUBIR".
+4. Arrástralos al panel remoto.
+5. Espera a que termine la transferencia y abre tu dominio.
+
+------------------------------------------------------------------------------
+VERIFICACIÓN FINAL TRAS SUBIR:
+------------------------------------------------------------------------------
+- Teléfono y WhatsApp configurados: +34 675 98 03 69
+- Correo de contacto: manuelasalasgarcia@gmail.com
+- Instagram oficial: @thebluehouse.madrid
+- Carrusel automático de la portada activo cada 4 segundos.
+- 30 fotografías técnicas de la casa incluidas.
+- Película "Con los años que nos quedan" (Frank Ariza) en el portfolio.
+==============================================================================
